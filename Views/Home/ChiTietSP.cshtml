@@ -1,0 +1,220 @@
+﻿@using DoAnCuoiKy_Nhom1.Models;
+@model DoAnCuoiKy_Nhom1.Models.SanPham
+
+@{
+    ViewBag.Title = "ChiTietSP_NoiComDien";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    List<SanPham> dsloai = ViewBag.ListSP as List<SanPham>;
+    List<DanhGia> listDG = ViewBag.DanhGiaSanPhams as List<DanhGia>;
+}
+
+<div style="width: 1500px; height: 860px; background-color: white; margin-top: 15px; padding: 20px;">
+    <h4 style="color:black">TÍNH NĂNG THÔNG SỐ KỸ THUẬT</h4>
+    <hr />
+    <div style="display: flex;">
+        <div style="flex: 1;">
+            <img src="@Url.Content("~/Images/" + Model.hinhAnh)" alt="@Model.tenSanPham" style="width: 725px; height: auto; margin-top:20px" />
+            <div style="margin-top:100px" class="text-center">
+                <a class="btn" type="button" style="font-size:20px" href="/Home/ThemSanPhamVaoGio/?msp=@Model.maSanPham"><b>MUA HÀNG</b></a>
+                <a class="btn" type="button" style="font-size:20px" href="/Home/ThemSanPham/?msp=@Model.maSanPham"><b>THÊM VÀO GIỎ HÀNG</b></a>
+            </div>
+        </div>
+        <div style="flex: 1; padding-right: 20px; color: black; margin-top: 20px; font-size:20px">
+            <p style="font-size:24px"><b>Thông số kỹ thuật</b></p><br />
+            <p><b>Tên sản phẩm:</b> @Html.DisplayFor(model => model.tenSanPham)</p>
+            <p><b>Màu sắc:</b> @Html.DisplayFor(model => model.mauSac)</p><br />
+            <p><b>Thương hiệu:</b> @Html.DisplayFor(model => model.ThuongHieu.tenThuongHieu)</p><br />
+            <p><b>Nhà sản xuất:</b> @Html.DisplayFor(model => model.NhaCungCap.tenNhaCungCap)</p><br />
+            <p><b>Xuất xứ:</b> @Html.DisplayFor(model => model.xuatXu)</p><br />
+            <p><b>Thời gian bảo hành:</b> @Html.DisplayFor(model => model.thoiGianBaoHanh)</p><br />
+            <p><b>Địa điểm bảo hành:</b> @Html.DisplayFor(model => model.diaDiemBaoHanh)</p><br />
+            <p><b>Loại nồi:</b> @Html.DisplayFor(model => model.LoaiSanPham.tenLoaiSanPham)</p><br />
+        </div>
+
+        <div style="flex: 1; padding-right: 20px; color: black; margin-top: 100px; font-size:20px;margin-left:10px">
+            @if (Model.SP_NoiComDien != null)
+            {
+                <p><b>Dung tích:</b> @Html.DisplayFor(model => model.SP_NoiComDien.dungTich)</p><br />
+                <p><b>Công suất:</b> @Html.DisplayFor(model => model.SP_NoiComDien.congSuat)</p><br />
+                <p><b>Chất liệu:</b> @Html.DisplayFor(model => model.SP_NoiComDien.chatLieu)</p><br />
+                <p><b>Chế độ nấu:</b> @Html.DisplayFor(model => model.SP_NoiComDien.cheDoNau)</p><br />
+                <p><b>Chức năng giữ ấm:</b> @Html.DisplayFor(model => model.SP_NoiComDien.chucNangGiuAm)</p><br />
+                <p><b>Khối lượng sản phẩm (kg):</b> @Html.DisplayFor(model => model.SP_NoiComDien.khoiLuongSanPham)</p><br />
+            }
+            else if (Model.SP_BepDienTu != null)
+            {
+                <p><b>Mặt bếp:</b> @Html.DisplayFor(model => model.SP_BepDienTu.matBep)</p><br />
+                <p><b>Tổng công suất:</b> @Html.DisplayFor(model => model.SP_BepDienTu.tongCongSuat)</p><br />
+                <p><b>Số bếp:</b> @Html.DisplayFor(model => model.SP_BepDienTu.soBep)</p><br />
+                <p><b>Chế độ nấu:</b> @Html.DisplayFor(model => model.SP_BepDienTu.cheDoNau)</p><br />
+                <p><b>Hẹn giờ:</b> @Html.DisplayFor(model => model.SP_BepDienTu.henGio)</p><br />
+                <p><b>Khóa an toàn:</b> @Html.DisplayFor(model => model.SP_BepDienTu.khoaAnToan)</p><br />
+                <p><b>Khối lượng sản phẩm:</b> @Html.DisplayFor(model => model.SP_BepDienTu.khoiLuongSanPham)</p><br />
+            }
+            else if (Model.SP_LoViSong != null)
+            {
+                <p><b>Dung tích:</b> @Html.DisplayFor(model => model.SP_LoViSong.dungTich)</p><br />
+                <p><b>Công suất vi sóng:</b> @Html.DisplayFor(model => model.SP_LoViSong.congSuatViSong)</p><br />
+                <p><b>Chức năng:</b> @Html.DisplayFor(model => model.SP_LoViSong.chucNang)</p><br />
+                <p><b>Hẹn giờ:</b> @Html.DisplayFor(model => model.SP_LoViSong.henGio)</p><br />
+                <p><b>Bảng điều khiển:</b> @Html.DisplayFor(model => model.SP_LoViSong.bangDieuKhien)</p><br />
+                <p><b>Tiện ích:</b> @Html.DisplayFor(model => model.SP_LoViSong.tienIch)</p><br />
+                <p><b>Khối lượng sản phẩm:</b> @Html.DisplayFor(model => model.SP_LoViSong.khoiLuongSanPham)</p><br />
+            }
+            else if (Model.SP_MayXaySinhTo != null)
+            {
+                <p><b>Công suất:</b> @Html.DisplayFor(model => model.SP_MayXaySinhTo.congSuat)</p><br />
+                <p><b>Dung tích cối:</b> @Html.DisplayFor(model => model.SP_MayXaySinhTo.dungTichCoi)</p><br />
+                <p><b>Chất liệu cối:</b> @Html.DisplayFor(model => model.SP_MayXaySinhTo.chatLieuCoi)</p><br />
+                <p><b>Số lượng cối:</b> @Html.DisplayFor(model => model.SP_MayXaySinhTo.soLuongCoi)</p><br />
+                <p><b>Chức năng:</b> @Html.DisplayFor(model => model.SP_MayXaySinhTo.chucNang)</p><br />
+                <p><b>Tính năng:</b> @Html.DisplayFor(model => model.SP_MayXaySinhTo.tinhNangKhac)</p><br />
+                <p><b>Khối lượng sản phẩm:</b> @Html.DisplayFor(model => model.SP_MayXaySinhTo.khoiLuong)</p><br />
+            }
+            else if (Model.SP_BinhDun != null)
+            {
+                <p><b>Dung tích:</b> @Html.DisplayFor(model => model.SP_BinhDun.dungTich)</p><br />
+                <p><b>Chất liệu:</b> @Html.DisplayFor(model => model.SP_BinhDun.chatLieu)</p><br />
+                <p><b>Chế độ giữ nhiệt:</b> @Html.DisplayFor(model => model.SP_BinhDun.cheDoGiuNhiet)</p><br />
+                <p><b>Công suất:</b> @Html.DisplayFor(model => model.SP_BinhDun.congSuat)</p><br />
+                <p><b>Chuông báo:</b> @Html.DisplayFor(model => model.SP_BinhDun.chuongBao)</p><br />
+                <p><b>Khối lượng sản phẩm:</b> @Html.DisplayFor(model => model.SP_BinhDun.khoiLuongSanPham)</p><br />
+            }
+            else if (Model.SP_MayRuaChen != null)
+            {
+                <p><b>Sức chứa:</b> @Html.DisplayFor(model => model.SP_MayRuaChen.sucChua)</p><br />
+                <p><b>Lượng nước tiêu thụ:</b> @Html.DisplayFor(model => model.SP_MayRuaChen.luongNuocTieuThu)</p><br />
+                <p><b>Công suất:</b> @Html.DisplayFor(model => model.SP_MayRuaChen.congSuat)</p><br />
+                <p><b>Chất liệu:</b> @Html.DisplayFor(model => model.SP_MayRuaChen.chatLieu)</p><br />
+                <p><b>Khối lượng sản phẩm:</b> @Html.DisplayFor(model => model.SP_MayRuaChen.khoiLuongSanPham)</p><br />
+
+            }
+            else if (Model.SP_MayQuat != null)
+            {
+                <p><b>Công suất:</b> @Html.DisplayFor(model => model.SP_MayQuat.congSuat)</p><br />
+                <p><b>Đường kính quạt:</b> @Html.DisplayFor(model => model.SP_MayQuat.duongKinhQuat)</p><br />
+                <p><b>Số cánh quạt:</b> @Html.DisplayFor(model => model.SP_MayQuat.soCanhQuat)</p><br />
+                <p><b>Tốc độ gió:</b> @Html.DisplayFor(model => model.SP_MayQuat.tocDoGio)</p><br />
+                <p><b>Khối lượng sản phẩm:</b> @Html.DisplayFor(model => model.SP_MayQuat.khoiLuongSanPham)</p><br />
+            }
+            else if (Model.SP_MayLocNuoc != null)
+            {
+                <p><b>Công nghệ lọc:</b> @Html.DisplayFor(model => model.SP_MayLocNuoc.congNgheLoc)</p><br />
+                <p><b>Công suất:</b> @Html.DisplayFor(model => model.SP_MayLocNuoc.congSuat)</p><br />
+                <p><b>Tiện ích:</b> @Html.DisplayFor(model => model.SP_MayLocNuoc.tienIch)</p><br />
+                <p><b>Dung tích bình chứa:</b> @Html.DisplayFor(model => model.SP_MayLocNuoc.dungTichBinhChua)</p><br />
+            }
+            else if (Model.SP_MayHutBui != null)
+            {
+                <p><b>Công suất hoạt động:</b> @Html.DisplayFor(model => model.SP_MayHutBui.congSuatHoatDong)</p><br />
+                <p><b>Công suất hút:</b> @Html.DisplayFor(model => model.SP_MayHutBui.congSuatHut)</p><br />
+                <p><b>Dung tích chứa bụi:</b> @Html.DisplayFor(model => model.SP_MayHutBui.dungTichChuaBui)</p><br />
+                <p><b>Bộ lọc:</b> @Html.DisplayFor(model => model.SP_MayHutBui.boLoc)</p><br />
+                <p><b>Chế độ hút:</b> @Html.DisplayFor(model => model.SP_MayHutBui.cheDoHut)</p><br />
+                <p><b>Tiện ích:</b> @Html.DisplayFor(model => model.SP_MayHutBui.tienIch)</p><br />
+                <p><b>Khối lượng sản phẩm:</b> @Html.DisplayFor(model => model.SP_MayHutBui.khoiLuongSanPham)</p><br />
+            }
+            else if (Model.SP_BanUi != null)
+            {
+                <p><b>Chiều dài dây:</b> @Html.DisplayFor(model => model.SP_BanUi.chieuDaiDayDan)</p><br />
+                <p><b>Chất liệu:</b> @Html.DisplayFor(model => model.SP_BanUi.chatLieu)</p><br />
+                <p><b>Công suất:</b> @Html.DisplayFor(model => model.SP_BanUi.congSuat)</p><br />
+                <p><b>Dung tích bình nước:</b> @Html.DisplayFor(model => model.SP_BanUi.dungTichBinhNuoc)</p><br />
+                <p><b>Điều chỉnh hơi nước:</b> @Html.DisplayFor(model => model.SP_BanUi.dieuChinhHoiNuoc)</p><br />
+                <p><b>Khối lượng sản phẩm:</b> @Html.DisplayFor(model => model.SP_BanUi.khoiLuongSanPham)</p><br />
+            }
+            else if (Model.SP_MaySayToc != null)
+            {
+                <p><b>Công suất:</b> @Html.DisplayFor(model => model.SP_MaySayToc.congSuat)</p><br />
+                <p><b>Chế độ sáy:</b> @Html.DisplayFor(model => model.SP_MaySayToc.cheDoSay)</p><br />
+                <p><b>Khối lượng sản phẩm:</b> @Html.DisplayFor(model => model.SP_MaySayToc.khoiLuongSanPham)</p><br />
+            }
+            else if (Model.SP_MayCaoRau != null)
+            {
+                <p><b>Hệ thống lưỡi cạo:</b> @Html.DisplayFor(model => model.SP_MayCaoRau.heThongLuoiCao)</p><br />
+                <p><b>Thời gian sử dụng:</b> @Html.DisplayFor(model => model.SP_MayCaoRau.thoiGianSuDung)</p><br />
+                <p><b>Thời gian sạc:</b> @Html.DisplayFor(model => model.SP_MayCaoRau.thoiGianSac)</p><br />
+                <p><b>Khối lượng sản phẩm:</b> @Html.DisplayFor(model => model.SP_MayCaoRau.khoiLuongSanPham)</p><br />
+            }
+        </div>
+    </div>
+</div>
+<div style="width: 81.5%; background-color: white; margin-top: 15px; padding: 20px;">
+    <h4 style="color:black">ĐÁNH GIÁ SẢN PHẨM</h4>
+    <hr />
+    <form action="~/Home/ThemDanhGiaSanPham/?maSanPham=@Model.maSanPham" method="post">
+        <div class="row">
+            <div class="col-md-6">
+                <h4 style="color:black">Nhận xét về @Model.tenSanPham</h4><br />
+                <textarea rows="5" name="txtNoiDung" placeholder="Nhập nhận xét về sản phẩm. Vui lòng không nhập quá 100 kí tự!" style="width:520px"></textarea><br />
+                <input type="text" placeholder="Họ và tên (bắt buộc)" name="txtHoTen" style="height:40px" />
+                <input type="text" placeholder="Số điện thoại" name="txtSoDienThoai" style="height:40px;width:162px" />
+                <button class="btn" type="submit">Gửi nhận xét</button>
+            </div>
+            <div class="col-md-6">
+                <h4 style="color:black">Nhận xét!</h4><br />
+                @if (listDG ==null)
+                {
+                    <p style="color:black">Chưa có đánh giá sản phẩm.</p>
+                }
+                else
+                {
+                    foreach (var dg in listDG)
+                    {
+                        <div>
+                            <h4 style="color:black;font-size:18px">@dg.hoTenKhachHang</h4>
+                            <p style="color:black;font-size:16px">@dg.danhGiaSanPham</p>
+                        </div>
+                        <hr />
+                    }
+                }
+            </div>
+        </div>
+    </form>
+    <hr />
+</div>
+<div style="width: 81.5%; background-color: white; margin-top: 15px; padding: 20px;">
+    <h4 style="color:black">SẢN PHẨM LIÊN QUAN</h4>
+    <hr />
+    <div class="row text-center">
+
+        @foreach (SanPham sp in dsloai)
+        {
+            <div class="col-md-3">
+                <div class="product-card" style="width:320px;height:550px;border-radius: 2em; box-shadow: 0 1px 2px 0 rgba(60,64,67,.10196078431372549),0 2px 6px 2px rgba(60,64,67,.14901960784313725);margin-left:8px;margin-right:12px;margin-bottom:25px">
+                    <a href="~/Home/ChiTietSP/?id=@sp.maSanPham"><img src="~/Images/@sp.hinhAnh" alt="@sp.tenSanPham" style="width:100%;margin-top:40px" /></a>
+                    <div class="card-body" style="text-align:left">
+                        <p class="card-title" style="font-size:16.5px;color:black;margin-top:30px">@sp.tenSanPham</p>
+                        <p class="card-title" style="font-size:16.5px;color:black;margin-top:30px;color:red"><b>@String.Format("{0:0,0}", sp.giaBan)đ</b></p>
+
+                        <p class="card-price" style="font-size: 14.5px; color: black"><b>Thương hiệu: </b>@sp.ThuongHieu.tenThuongHieu</p>
+                        <p class="card-price" style="font-size: 14.5px; color: black"><b>Xuất xứ: </b>@sp.xuatXu</p>
+                        <p class="card-price" style="font-size:14.5px;color:black"><b>Thời gian bảo hành: </b>@sp.thoiGianBaoHanh</p>
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
+</div>
+
+@section Scripts {
+    @*<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>*@
+    <script src="~/Content/bootstrap/js/jquery-3.3.1.min.js"></script>
+    <script src="~/Content/bootstrap/js/bootstrap.min.js"></script>
+}
+<style>
+    .btn {
+        background-color: white;
+        border: 2px solid;
+        color: #FF0000;
+        transition: background-color 0.3s;
+    }
+
+        .btn:hover {
+            background-color: #FF0000;
+            color: white /* Màu bạn muốn thay đổi khi rê chuột */
+        }
+</style>

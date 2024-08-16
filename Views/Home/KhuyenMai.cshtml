@@ -1,0 +1,27 @@
+﻿@using DoAnCuoiKy_Nhom1.Models
+@model List<KhuyenMai>
+
+<div class="row text-center">
+    @foreach (KhuyenMai khuyenMai in Model)
+    {
+        <div class="col-md-3">
+            <div class="product-card" style="width:320px;height:550px;border-radius: 2em; box-shadow: 0 1px 2px 0 rgba(60,64,67,.10196078431372549),0 2px 6px 2px rgba(60,64,67,.14901960784313725);margin-left:8px;margin-right:12px;margin-bottom:25px">
+                <a href="~/Home/ChiTietSP/?id=@khuyenMai.maSanPham"><img src="~/Images/@khuyenMai.SanPham.hinhAnh" alt="@khuyenMai.SanPham.tenSanPham" style="width:100%;margin-top:40px" /></a>
+                <div class="card-body" style="text-align:left">
+                    <p class="card-title" style="font-size:16.5px;color:black;margin-top:30px">@khuyenMai.SanPham.tenSanPham</p>
+                    <p class="card-price original-price" style="font-size: 16.5px; color: darkcyan"><b>Giá gốc: @String.Format("{0:0,0}", @khuyenMai.giaGoc)đ (@String.Format("{0:0}",@khuyenMai.phanTramGiamGia)%)</b></p>
+                    <p class="card-price" style="font-size:16.5px;color:red"><b>Giá khuyến mãi: @String.Format("{0:0,0}", @khuyenMai.giaKhuyenMai)đ</b></p>
+                    <p class="card-price" style="font-size: 14.5px; color: black"><b>Thương hiệu: </b>@khuyenMai.SanPham.ThuongHieu.tenThuongHieu</p>
+                    <p class="card-price" style="font-size: 14.5px; color: black"><b>Xuất xứ: </b>@khuyenMai.SanPham.xuatXu</p>
+                    <p class="card-price" style="font-size:14.5px;color:black"><b>Thời gian bảo hành: </b>@khuyenMai.SanPham.thoiGianBaoHanh</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<style>
+    .original-price {
+        text-decoration: line-through;
+    }
+</style>

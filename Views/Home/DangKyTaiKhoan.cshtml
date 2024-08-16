@@ -1,0 +1,81 @@
+﻿@model DoAnCuoiKy_Nhom1.Models.DangKiTaiKhoan
+
+@{
+    ViewBag.Title = "DangKyTaiKhoan";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+<div class="container py-5">
+    <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-6">
+            <form action="/Home/DangKyTaiKhoan" method="post" enctype="multipart/form-data">
+                @Html.AntiForgeryToken()
+                <div class="border p-4 shadow-sm rounded py-4">
+                    <div class="container">
+                        <a href="/Home/DangKyTaiKhoan" class="btn btn-link">
+                            <h4 class="text-dark" style="width:100px;text-align:center;margin-left:50px">Đăng Ký</h4>
+                        </a>
+                        <a href="/Home/DangNhapTaiKhoan" class="btn btn-link">
+                            <h4 class="text-dark" style="margin-left:80px;text-align:center">Đăng Nhập</h4>
+                        </a>
+                    </div>
+                    <hr />
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                    <div class="form-group mb-4">
+                        <input type="text" name="hoVaTen" placeholder="Họ và tên" class="form-control" style="max-width:489px" />
+
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <input type="text" name="soDienThoai" placeholder="Số điện thoại" class="form-control" style="max-width:489px" />
+
+                    </div>
+                    <div class="form-group mb-4">
+                        <input type="email" name="email" placeholder="Email" class="form-control" style="max-width:489px" />
+
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <input type="password" name="matKhau" placeholder="Mật khẩu" class="form-control" style="max-width:489px" />
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <input type="password" name="nhapLaiMatKhau" placeholder="Nhập lại mật khẩu" class="form-control" style="max-width:489px" />
+                    </div>
+                    <div class="form-group mb-4">
+                        <input type="text" name="diaChi" placeholder="Địa chỉ" class="form-control" style="max-width:489px" />
+
+                    </div>
+                    <div class="form-group text-center">
+                        <input type="submit" value="Đăng Ký" class="btn btn-primary px-4 py-2 form-control" style="max-width: 489px; font-size:1.5rem; height:60px; background-color: #FF0000;" />
+                    </div>
+
+                    @if (ViewBag.ThongBao != null)
+                    {
+                        <div class="text-danger">@ViewBag.ThongBao</div>}
+
+                    @if (ViewBag.ThongBao1 != null)
+                    {
+                        <div class="text-danger">@ViewBag.ThongBao1</div>}
+
+                    @if (ViewBag.ThongBao3 != null)
+                    {
+                        <div class="text-danger">@ViewBag.ThongBao3</div>}
+
+                    @if (ViewBag.ThongBao2 != null)
+                    {
+                        <div class="text-success">@ViewBag.ThongBao2</div>}
+                </div>
+            </form>
+
+        </div>
+        <div class="col-md-3"></div>
+    </div>    
+</div>
+<div class="container-fluid" style=" background: #e3e7e8;margin-top:9.2rem;padding-top:1.8rem">
+    <div class="row justify-content-center">
+        <p style="font-size: 1.2rem; color: #3f3f3f;">Bạn gặp khó khăn khi đăng nhập, đăng ký? Gọi <b style="color:orangered">1800 6800</b> để được hỗ trợ tốt nhất.</p>
+        </div>
+</div>

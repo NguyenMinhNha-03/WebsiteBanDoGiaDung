@@ -1,0 +1,72 @@
+﻿@using DoAnCuoiKy_Nhom1.Models;
+@model List<ChiTietHoaDon>
+
+@{ ViewBag.Title = "XemLichSuMuaHang";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml"; }
+
+<style>
+    .textcolor {
+        color: black;
+    }
+</style>
+
+@if (Model == null || Model.Count == 0)
+{
+
+    <h2 style="text-align:center; color:black; margin-top:300px">Hiện tại không có đơn hàng nào</h2>
+}
+else
+{
+<div class="container" style="margin:0 auto; margin-top:20px;">
+    <div class="row">
+        <h2 class="textcolor" style="margin:0 auto;">Thông tin của bạn</h2>
+    </div>
+    <div class="row" style="margin:0 auto; margin-top:30px; margin-left:430px;">
+        <table class="textcolor">
+            @if (Session["taikhoan"] != null)
+            {
+                var tk = Session["taikhoan"] as TaiKhoan;
+                <tr>
+                    <td><b>Họ tên: </b> @tk.DangKiTaiKhoan.hoVaTen</td>             
+                </tr>
+                <tr>
+                    <td><b>Điện thoại: </b> @tk.DangKiTaiKhoan.soDienThoai</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>Email: </b> @tk.DangKiTaiKhoan.email</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>Địa chỉ: </b> @tk.DangKiTaiKhoan.diaChi</td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="row">
+        <h2 class="textcolor" style="margin:0 auto; margin-bottom:30px; margin-top:50px;">Lịch sử mua hàng của bạn</h2>
+        <table class="table textcolor">
+            <tr style="font-weight:bold">
+                <td>Tên sản phẩm</td>
+                <td>Hình ảnh</td>
+                <td>Số lượng</td>
+                <td>Tình trạng</td>
+                <td>Ngày giao dự kiến</td>
+                <td>Đơn giá</td>
+                <td>Tổng tiền</td>
+            </tr>
+
+            @foreach (ChiTietHoaDon cthd in Model)
+            {
+                <tr>
+                    <td>@cthd.SanPham.tenSanPham</td>
+                    <td><img src="~/Images/@cthd.SanPham.hinhAnh" style="width: 150px;" /></td>
+                    <td>@cthd.soluongMua</td>
+                    <td>@cthd.HoaDon.tinhTrangDonHang</td>
+                    <td>@cthd.HoaDon.ngayGiaoHang</td>
+                    <td style="color:red">@String.Format("{0:0,0}đ", cthd.SanPham.giaBan)</td>
+                    <td style="color:red">@String.Format("{0:0,0}đ", cthd.thanhTienHoaDon)</td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+}

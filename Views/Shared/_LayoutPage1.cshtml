@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+    <link href="~/Content/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+        body {
+            padding-top: 0px;
+        }
+
+        .container-fluid {
+            background-color: #FF0000;
+            color: #FFFFFF;
+            height: 90px
+        }
+
+        .navbar-brand {
+            margin-left: 70px
+        }
+
+        #search-header {
+            background-color: white;
+            border-radius: 30px;
+            padding: 2px;
+        }
+
+        #input {
+            border: none;
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        #button-search {
+            background-color: #FFFFFF;
+            border: none;
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+        #icon-search {
+            color: #000000;
+        }
+
+        .nav-link {
+            margin-left: 10px;
+            font-size: 18px
+        }
+
+        .icon-header {
+            width: 25px;
+        }
+
+        .dropdown {
+            display: inline-block;
+            margin: 1px 35px;
+        }
+
+            .dropdown button {
+                background-color: white;
+                color: black;
+                border: none;
+                cursor: pointer;
+                font-size: 18px;
+            }
+
+            .dropdown a {
+                display: block;
+                color: black;
+                text-decoration: none;
+                padding: 10px 15px;
+                font-size: 18px;
+            }
+
+            .dropdown .content {
+                display: none;
+                position: absolute;
+                background-color: white;
+                min-width: 100px;
+                box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+            }
+
+            .dropdown:hover .content {
+                display: block;
+            }
+
+            .dropdown:hover button {
+                background-color: lightgray;
+            }
+
+            .dropdown a:hover {
+                background-color: lightgray
+            }
+
+        .vertical-line {
+            font-size: 20px;
+            color: lightgray;
+            padding: 0px 12px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row align-items-center py-3">
+            <div class="col-md-1"><a href="/Home/Customer" style="color:white">Trở về</a></div>
+            <div class="col-md-4">
+                <a class="navbar-brand" href="#"><img src="~/Images/logo1.png" style="width:120px; margin-left:70px;"></a>
+            </div>
+            <div class="col-md-2">
+                <form id="search-header" class="d-flex search-bar" role="search">
+                    <input id="input" class="form-control me-2" type="search" placeholder="Bạn cần tìm gì hôm nay?" aria-label="Search">
+                    <button id="button-search" type="submit" class="btn btn-outline-light">
+                        <i id="icon-search" class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="col-md-5 d-flex">
+                <a class="nav-link text-white" href="#"><img class="icon-header" src="~/Images/cart.png" alt="Cart" /> Giỏ hàng</a>
+                <a class="nav-link text-white" href="#"><img class="icon-header" src="~/Images/history.png" alt="Order history" /> Tra cứu đơn hàng</a>         
+                <a class="nav-link text-white" href="#"><img class="icon-header" src="~/Images/phone-call.png" alt="Phone" /> Gọi mua: 1800.6800 (Miễn phí)</a>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            @RenderBody()
+        </div>
+    </div>
+   
+    
+   
+
+    
+
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

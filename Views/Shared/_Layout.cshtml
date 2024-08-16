@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+@using DoAnCuoiKy_Nhom1.Models;
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+    <link href="~/Content/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            padding-top: 0px;
+            background-color: #f5f6f8;
+        }
+
+        .container-fluid {
+            background-color: #FF0000;
+            color: #FFFFFF;
+            height: 90px
+        }
+
+        .navbar-brand {
+            margin-left: 70px
+        }
+
+        #search-header {
+            background-color: white;
+            border-radius: 30px;
+            padding: 2px;
+        }
+
+        #input {
+            border: none;
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        #button-search {
+            background-color: #FFFFFF;
+            border: none;
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+        #icon-search {
+            color: #000000;
+        }
+
+        .nav-link {
+            margin-left: 10px;
+            font-size: 18px
+        }
+
+        .icon-header {
+            width: 25px;
+        }
+
+        .dropdown {
+            display: inline-block;
+            margin: 1px 35px;
+        }
+
+            .dropdown button {
+                background-color: white;
+                color: black;
+                border: none;
+                cursor: pointer;
+                font-size: 18px;
+            }
+
+            .dropdown a {
+                display: block;
+                color: black;
+                text-decoration: none;
+                padding: 10px 15px;
+                font-size: 18px;
+            }
+
+            .dropdown .content {
+                display: none;
+                position: absolute;
+                background-color: white;
+                min-width: 100px;
+                box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+            }
+
+            .dropdown:hover .content {
+                display: block;
+            }
+
+            .dropdown:hover button {
+                background-color: lightgray;
+            }
+
+            .dropdown a:hover {
+                background-color: lightgray
+            }
+
+        .vertical-line {
+            font-size: 20px;
+            color: lightgray;
+            padding: 0px 12px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row align-items-center py-3">
+            <div class="col-md-4">
+                <a class="navbar-brand" href="~/Home/Customer"><img src="~/Images/logo1.png" style="width:120px; margin-left:70px;"></a>
+            </div>
+            <div class="col-md-2">
+                <form id="search-header" class="d-flex search-bar" role="search" action="~/Home/SearchName" method="post">
+                    <input id="input" class="form-control me-2" type="search" placeholder="Bạn cần tìm gì hôm nay?" aria-label="Search" name="tensp">
+                    <button id="button-search" type="submit" class="btn btn-outline-light">
+                        <i id="icon-search" class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="col-md-6 d-flex">
+                <a class="nav-link text-white" href="~/Home/XemGioHang">
+                    <img class="icon-header" src="~/Images/cart.png" alt="Cart" />
+                    @{
+                        if (Session["gh"] != null)
+                        {
+                            var gio = Session["gh"] as GioHang;
+                            <label>(@gio.SoSP())</label>
+                        }
+                    }
+                    Giỏ hàng
+                </a>
+                <a class="nav-link text-white" href="~/Home/XemLichSuMuaHang"><img class="icon-header" src="~/Images/history.png" alt="Order history" /> Tra cứu đơn hàng</a>
+                @if (Session["tenKhachHang"] != null)
+                {
+    <a class="nav-link text-white" href="~/Home/QuenMatKhau">
+        <img class="icon-header" src="~/Images/user.png" alt="User" />Chào!! @Session["tenKhachHang"]
+    </a>
+                    <a class="nav-link text-white" href="~/Home/DangXuat"><img class="icon-header" src="~/Images/logoutt.png" alt="Logout" /> Đăng xuất</a> }
+                                else
+                                {
+                    <a class="nav-link text-white" href="~/Home/DangNhapTaiKhoan">
+                        <img class="icon-header" src="~/Images/user.png" alt="User" /> Đăng nhập
+                    </a>}
+                <a class="nav-link text-white" href="#"><img class="icon-header" src="~/Images/phone-call.png" alt="Phone" /> Gọi mua: 1800.6800 (Miễn phí)</a>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            @RenderBody()
+
+        </div>
+        <div style="background-color: white; margin-top: 30px; padding-bottom:10px; width: 1900px; display: flex; justify-content: center; border-top: 1px solid #e2e2e2; border-bottom: 1px solid #e2e2e2;">
+            <div class="row" style="width: 1500px; background-color: white; color: black; margin-top: 20px;">
+                <div class="col-md-3">
+                    <p class="footer-info"><b style="text-align: center; font-size: 17px;">Thông tin công ty</b></p>
+                    <p class="footer-info">Liên hệ: Khoa Công Nghệ Thông Tin - Trường Đại Học Công Thương TP.HCM</p>
+                    <p class="footer-info">Địa chỉ: 140 Lê Trọng Tấn, Tây Thạnh, Tân Phú, TP.HCM</p>
+                    <p class="footer-info">Email: nduykhang71@gmail.com</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="footer-info"><b style="text-align: center; font-size: 17px;">Tổng đài hỗ trợ</b></p>
+                    <p class="footer-info">Gọi mua: <b style="color:dodgerblue">1900 232 461</b></p>
+                    <p class="footer-info">Góp ý, khiếu nại: <b style="color:dodgerblue">1800.1063</b></p>
+                    <p class="footer-info">Bảo hành: <b style="color:dodgerblue">1900 232 465</b></p>
+
+                </div>
+                <div class="col-md-3">
+                    <p class="footer-info"><b style="text-align:center; font-size:17px;">Tìm kiếm hàng đầu</b></p>
+                    <p class="footer-info">Nồi cơm điện</p>
+                    <p class="footer-info">Bếp điên từ</p>
+                    <p class="footer-info">Lò vi sóng</p>
+                    <p class="footer-info">Máy quạt</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="footer-info"><b style="text-align: center; font-size: 17px;">Thông tin liên hệ</b></p>
+                    <p>
+                        <a style="color:black" href="https://www.facebook.com/"><img src="~/Images/facebook.png" style="padding-right:8px" />Facebook</a> <br />
+                    </p>
+                    <p>
+                        <a style="padding-top:8px; color:black" href="https://www.youtube.com/"><img src="~/Images/youtube.png" style="padding-right:8px" />Youtube</a> <br />
+                    </p>
+                    <p>
+                        <a style="padding-top: 8px; color: black" href="https://www.instagram.com/"><img src="~/Images/instagram.png" style="padding-right:8px" />Instagram</a> <br />
+                    </p>
+                    <p>
+                        <a style="padding-top: 8px; color: black" href="~/NhanVien/Index"><img src="~/Images/admin.png" style="padding-right:8px" />Admin</a> <br />
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p style="color:black; margin:15px 200px; padding-bottom:15px">
+                © 2024. Công ty cổ phần Thế Giới Di Động. GPDKKD: 0522546803 do sở KH & ĐT TP.HCM cấp ngày 02/01/2024. GPMXH: 21/GP-BTTTT do Bộ Thông Tin và Truyền Thông cấp ngày 11/01/2024.
+                Địa chỉ liên hệ và gửi chứng từ: 140 Lê Trọng Tấn, Tây Thạnh, Tân Phú, TP.Hồ Chí Minh. Điện thoại: 0333129095. Chịu trách nhiệm nội dung: Nguyễn Minh Nhã. Email: nmnha1410@gmail.com.
+            </p>
+        </div>
+    </div>
+
+
+
+
+    @RenderSection("Scripts", required: false)
+
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

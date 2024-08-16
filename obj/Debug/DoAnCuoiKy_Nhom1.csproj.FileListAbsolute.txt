@@ -1,0 +1,444 @@
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\DoAnCuoiKy_Nhom1.dll.config
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\DoAnCuoiKy_Nhom1.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\DoAnCuoiKy_Nhom1.pdb
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\csc.exe
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\csc.exe.config
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\csc.rsp
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\csi.exe
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\csi.exe.config
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\csi.rsp
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.AppContext.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.Collections.Immutable.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.Console.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.Globalization.Calendars.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.Compression.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.FileSystem.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.Net.Http.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.Net.Sockets.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.Reflection.Metadata.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.ValueTuple.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.XPath.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\vbc.exe
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\vbc.exe.config
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\vbc.rsp
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\VBCSCompiler.exe
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\roslyn\VBCSCompiler.exe.config
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\Microsoft.Web.Infrastructure.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\System.Web.Helpers.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\System.Web.Mvc.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\System.Web.Razor.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Deployment.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Razor.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\System.Web.Razor.xml
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.xml
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Deployment.xml
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Razor.xml
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\System.Web.Helpers.xml
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\System.Web.Mvc.xml
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.csproj.AssemblyReference.cache
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.csproj.CoreCompileInputs.cache
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.csproj.CopyComplete
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.pdb
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\DoAnCuoiKy_Nhom1.dll.config
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\DoAnCuoiKy_Nhom1.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\DoAnCuoiKy_Nhom1.pdb
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\csc.exe
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\csc.exe.config
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\csc.rsp
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\csi.exe
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\csi.exe.config
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\csi.rsp
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.AppContext.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.Collections.Immutable.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.Console.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.Globalization.Calendars.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.Compression.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.FileSystem.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.Net.Http.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.Net.Sockets.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.Reflection.Metadata.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.ValueTuple.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.XPath.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\vbc.exe
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\vbc.exe.config
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\vbc.rsp
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\VBCSCompiler.exe
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\roslyn\VBCSCompiler.exe.config
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\Microsoft.Web.Infrastructure.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\System.Web.Helpers.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\System.Web.Mvc.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\System.Web.Razor.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Deployment.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Razor.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\System.Web.Razor.xml
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.xml
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Deployment.xml
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Razor.xml
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\System.Web.Helpers.xml
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\System.Web.Mvc.xml
+D:\HocKiHe\DoAnCuoiKy_Nhom1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HocKiHe\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.csproj.AssemblyReference.cache
+D:\HocKiHe\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.csproj.CoreCompileInputs.cache
+D:\HocKiHe\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.csproj.CopyComplete
+D:\HocKiHe\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.dll
+D:\HocKiHe\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.pdb
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\DoAnCuoiKy_Nhom1.dll.config
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\DoAnCuoiKy_Nhom1.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\DoAnCuoiKy_Nhom1.pdb
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\csc.exe
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\csc.exe.config
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\csc.rsp
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\csi.exe
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\csi.exe.config
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\csi.rsp
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.AppContext.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Collections.Immutable.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Console.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Globalization.Calendars.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.Compression.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.FileSystem.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Net.Http.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Net.Sockets.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Reflection.Metadata.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.ValueTuple.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.XPath.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\vbc.exe
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\vbc.exe.config
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\vbc.rsp
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\VBCSCompiler.exe
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\VBCSCompiler.exe.config
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\Microsoft.Web.Infrastructure.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Helpers.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Mvc.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Razor.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Deployment.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Razor.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Razor.xml
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.xml
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Deployment.xml
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Razor.xml
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Helpers.xml
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Mvc.xml
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.csproj.AssemblyReference.cache
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.csproj.CoreCompileInputs.cache
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.csproj.CopyComplete
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.dll
+D:\HK_He\LapTrinhWeb\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.pdb
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\DoAnCuoiKy_Nhom1.dll.config
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\DoAnCuoiKy_Nhom1.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\DoAnCuoiKy_Nhom1.pdb
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\csc.exe
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\csc.exe.config
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\csc.rsp
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\csi.exe
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\csi.exe.config
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\csi.rsp
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.AppContext.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Collections.Immutable.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Console.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Globalization.Calendars.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.Compression.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.FileSystem.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Net.Http.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Net.Sockets.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Reflection.Metadata.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.ValueTuple.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.XPath.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\vbc.exe
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\vbc.exe.config
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\vbc.rsp
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\VBCSCompiler.exe
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\roslyn\VBCSCompiler.exe.config
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\Microsoft.Web.Infrastructure.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Helpers.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Mvc.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Razor.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Deployment.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Razor.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Razor.xml
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.xml
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Deployment.xml
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Razor.xml
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Helpers.xml
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\System.Web.Mvc.xml
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.csproj.CoreCompileInputs.cache
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.csproj.CopyComplete
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.pdb
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\PagedList.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\PagedList.Mvc.dll
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\PagedList.xml
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\bin\PagedList.Mvc.xml
+D:\HocKiHe\LapTrinhWeb\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.csproj.AssemblyReference.cache
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\DoAnCuoiKy_Nhom1.dll.config
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\DoAnCuoiKy_Nhom1.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\DoAnCuoiKy_Nhom1.pdb
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\csc.exe
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\csc.exe.config
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\csc.rsp
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\csi.exe
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\csi.exe.config
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\csi.rsp
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.AppContext.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Collections.Immutable.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Console.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Globalization.Calendars.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.Compression.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.FileSystem.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Net.Http.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Net.Sockets.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Reflection.Metadata.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.ValueTuple.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.XPath.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\vbc.exe
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\vbc.exe.config
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\vbc.rsp
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\VBCSCompiler.exe
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\VBCSCompiler.exe.config
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\Microsoft.Web.Infrastructure.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\PagedList.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\PagedList.Mvc.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Helpers.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Mvc.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Razor.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Deployment.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Razor.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\PagedList.xml
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\PagedList.Mvc.xml
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Razor.xml
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.xml
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Deployment.xml
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Razor.xml
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Helpers.xml
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Mvc.xml
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.csproj.AssemblyReference.cache
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.csproj.CoreCompileInputs.cache
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.csproj.CopyComplete
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.dll
+D:\HocKiHe\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.pdb
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\DoAnCuoiKy_Nhom1.dll.config
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\DoAnCuoiKy_Nhom1.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\DoAnCuoiKy_Nhom1.pdb
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\csc.exe
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\csc.exe.config
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\csc.rsp
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\csi.exe
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\csi.exe.config
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\csi.rsp
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.AppContext.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Collections.Immutable.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Console.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Globalization.Calendars.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.Compression.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.FileSystem.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Net.Http.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Net.Sockets.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Reflection.Metadata.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.ValueTuple.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.XPath.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\vbc.exe
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\vbc.exe.config
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\vbc.rsp
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\VBCSCompiler.exe
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\roslyn\VBCSCompiler.exe.config
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\Microsoft.Web.Infrastructure.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\PagedList.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\PagedList.Mvc.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Helpers.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Mvc.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Razor.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Deployment.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Razor.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\PagedList.xml
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\PagedList.Mvc.xml
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Razor.xml
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.xml
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Deployment.xml
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Webpages.Razor.xml
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Helpers.xml
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\System.Web.Mvc.xml
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.csproj.AssemblyReference.cache
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.csproj.CoreCompileInputs.cache
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.csproj.CopyComplete
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.dll
+D:\Hoc tap\HK_He\LapTrinhWeb\DoAn\DoAnCuoiKy_Nhom1\obj\Debug\DoAnCuoiKy_Nhom1.pdb

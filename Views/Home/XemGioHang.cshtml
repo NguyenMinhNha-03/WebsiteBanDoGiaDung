@@ -1,0 +1,138 @@
+﻿@using DoAnCuoiKy_Nhom1.Models;
+@model GioHang
+@{
+    ViewBag.Title = "XemGioHang";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<style>
+    .input-field {
+        padding: 20px;
+        margin: 15px;
+        border: 1px solid lightgray;
+        border-radius: 4px;
+        width: 485px;
+        max-width: 700px;
+        color: black
+    }
+
+    .cart-item {
+        align-items: center;
+        border-bottom: 1px solid #ddd;
+    }
+
+        .cart-item img {
+            width: 200px;
+            height: auto;
+            margin-right: 20px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+    .cart-item-details {
+        flex-grow: 1;
+    }
+
+        .cart-item-details p {
+            margin: 5px 0;
+        }
+
+    .cart-item-actions {
+        display: flex;
+        align-items: center;
+    }
+
+    .cart-summary-total {
+        font-size: 22px;
+        font-weight: bold;
+        color: red;
+        text-align: center;
+        padding-left: 30px;
+    }
+
+    .form-check-input {
+        width: 15px; /* Điều chỉnh chiều rộng */
+        height: 20px; /* Điều chỉnh chiều cao */
+        transform: scale(1.5); /* Phóng to checkbox */
+    }
+</style>
+
+@if (Model == null || Model.lst.Count == 0)
+{
+    <h2 style="text-align:center; color:black; margin-top:300px">Hiện tại giỏ hàng bạn đang rỗng</h2>
+}
+else
+{
+    <div class="container-fluid" style="margin-top:20px; background-color:white;">
+        <div class="row m-3" style="display:flex">
+            <div class="col-7">
+                <h4 class="text-center" style="margin-bottom:30px; color:black;">Chọn địa chỉ nhận hàng</h4>
+                @if (Session["taikhoan"] != null)
+                {
+                    var tk = Session["taikhoan"] as TaiKhoan;
+                    <input class="input-field" type="text" value="Họ và tên:  @tk.DangKiTaiKhoan.hoVaTen" readonly />
+                    <input class="input-field" type="text" value="Số điện thoại:  @tk.DangKiTaiKhoan.soDienThoai" readonly />
+                    <input class="input-field" type="text" value="Email:  @tk.DangKiTaiKhoan.email" readonly />
+                    <input class="input-field" type="text" value="Địa chỉ:  @tk.DangKiTaiKhoan.diaChi" readonly />
+                    <input class="input-field" type="text" value="Ngày đặt:  @DateTime.Now.ToShortDateString()" readonly />
+
+                    <div>
+                        <div style="color:black; font-size:18px; margin-top:30px;" class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label style="margin-left:10px;" class="form-check-label" for="flexCheckChecked">
+                                Tôi đồng ý <a href="#" style="color:red">thỏa thuận bảo mật và chính sách mua hàng</a> của DK-MN
+                            </label>
+                        </div>
+                        <div>
+                            <p style="font-weight:bold; color:black; font-size:18px; margin-top:30px; margin-right:100px;">
+                                "Lưu ý: DK-MN chỉ giao hàng đối với các địa chỉ giao hàng có khoảng cách ít hơn hoặc bằng 500km tính từ trung tâm tiếp nhận đơn hàng
+                                và đáp ứng đủ điều kiện vận chuyển của DK-MN. Trường hợp sản phẩm bạn chọn không có sẵn hàng tại khu vực gần bạn,
+                                việc giao hàng sẽ được thực hiện bởi đối tác của DK-MN và không hỗ trợ lắp đặt (nếu có)."
+                            </p>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="col-5">
+                <h4 style="margin-bottom:30px; color:black;" class="text-center">Giỏ hàng của bạn</h4>
+                <table>
+                    @foreach (CartItem item in Model.lst)
+                    {
+                    <tr class="cart-item" style="color:black;">
+                        <td>
+                            <img src="~/Images/@item.sHinhAnh" alt="@item.sTenSanPham" />
+                        </td>
+                        <td>
+                            <div class="cart-item-details">
+                                <p>@item.sTenSanPham</p>
+                                <p>
+                                    @*<span style="text-decoration: line-through;">@String.Format("{0:0,0}đ", item.sGiaGoc)</span>*@
+                                    <span style="color: red; font-size:20px; font-weight:bold">@String.Format("{0:0,0}đ", item.sGiaBan)</span>
+                                </p>
+                            </div>
+                        </td>
+                        <td>
+                            <form action="/Home/CapNhatGioHang" method="post">
+                                <input type="hidden" name="maSanPham" value="@item.iMaSanPham" />
+                                <input type="number" name="soLuong" value="@item.iSoLuong" style="width:50px; margin-bottom:5px; margin-left:20px;" />
+                                <button class="btn btn-danger" type="submit">Cập nhật</button>
+                            </form>
+                        </td>
+                        <td>
+                            <a class="nav-link" href="~/Home/XoaGioHang/?msp=@item.iMaSanPham"><img style="width:30px;" src="~/Images/trash.png" /></a>
+                        </td>
+                    </tr>
+                    }
+                </table>
+                <div class="cart-summary" style="margin-top: 30px;">
+                    <p class="cart-summary-total">Tổng tiền: <span style="margin-left:300px" class="total-amount">@String.Format("{0:0,0}đ", Model.TongThanhTien())</span></p>
+                </div>
+                <div style="margin:40px auto; width:20%; justify-content:center">
+                    <form action="/Home/XLDatHang" method="post">
+                        <button class="btn btn-danger" type="submit">Đặt mua</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+}

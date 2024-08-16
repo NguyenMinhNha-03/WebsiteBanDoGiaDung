@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "XLDatHang";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="justify-content-center">
+    @{
+        var tb = ViewBag.tb;
+        if (tb == 0)
+        {
+            <label class="text-center m-5 text-dark thongbao">Gio hang rong !</label>
+        }
+        else
+        {
+            <label class="text-center m-5 text-dark thongbao">Đơn hàng của quý khách đã được chúng tôi ghi nhận. Chúng tôi sẽ liên hệ quý khách trong thời gian sớm nhất và giao hàng đúng hẹn.</label>
+        }
+    }
+</div>
+
